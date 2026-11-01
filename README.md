@@ -58,6 +58,7 @@ portfolio-analyzer/
 ├── tests/
 │   └── test_analyzer.py   Calculation tests with known answers
 ├── pytest.ini             Test discovery and import path
+├── LICENSE
 └── requirements.txt
 ```
 
@@ -74,3 +75,7 @@ portfolio-analyzer/
 - The ticker list is fixed at download time; the sidebar selects among the five default tickers.
 - Depends on Yahoo Finance availability and rate limits through yfinance.
 - Possible extensions: portfolio weights and combined portfolio metrics, drawdown, and beta against SPY.
+
+## License
+
+Code is released under the MIT License; see [LICENSE](LICENSE).
